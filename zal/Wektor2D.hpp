@@ -1,4 +1,4 @@
 class Wektor2D
 {
-    // Tutaj napisz implementacje klasy Wektor2D
+    //adsasdasd// Tutaj napisz implementacje klasy Wektor2D
 };
