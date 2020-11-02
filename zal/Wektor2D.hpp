@@ -8,10 +8,10 @@ public:
         this->y = b;
     }
   ~Wektor2D() {};
-  double          getX() { return this->x; }
-  double          getY() { return this->y; }
-  void            setX(double a) { this->x = a; }
-  void            setY(double b) { this->y = b; }
+  double getX() { return this->x; }
+  double getY() { return this->y; }
+  void setX(double a) { this->x = a; }
+  void setY(double b) { this->y = b; }
 private:
   double x;
   double y;
@@ -19,7 +19,7 @@ private:
 
 Wektor2D operator+(Wektor2D w1, Wektor2D w2)
 {
-    return Wektor2D::kart(w1.getX() + w2.getX(), w1.getY() + w2.getY());
+    return Wektor2D(w1.getX() + w2.getX(), w1.getY() + w2.getY());
 }
 
 double operator*(Wektor2D w1, Wektor2D w2)
